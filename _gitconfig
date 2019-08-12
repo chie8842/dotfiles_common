@@ -1,0 +1,38 @@
+[core]
+  editor = vim -c \"set fenc=utf-8\"
+  precomposeunicode = true
+  quotepath = false
+  commentChar = ";"
+[user]
+  name = chie8842
+  email = chie-hayashida@cookpad.com
+[color]
+  ui = true
+  diff = auto
+  status = auto
+  branch = auto
+[alias]
+graph = log --graph --date=iso --decorate=short --pretty=format:'%Cgreen%h %Cred%cd %Cblue%cn %Cgreen%d %Creset%s'
+lstats = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+diffw = diff --word-diff
+diffn = diff --name-only
+set-local-user = "!f(){ git config --local user.name \"${1}\" && git config --local user.email \"${2}\"; };f"
+change-commit-author = "!f(){ git commit --amend --author=\"${1} <${2}>\";};f"
+rao = remote add origin
+rau = remote add upstream
+fu = fetch upstream
+mum = merge upstream/master
+cm = commit -m
+ca = commit --amend
+rH = reset HEAD
+rhH = reset --hard HEAD
+a = add
+s = status
+p = push
+po = push origin
+b = branch
+co = checkout
+cob = checkout -b
+rao = remote add origin
+rau = remote add upstream
+su = submodule update --init --recursive
