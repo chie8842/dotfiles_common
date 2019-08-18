@@ -4,8 +4,8 @@
   quotepath = false
   commentChar = ";"
 [user]
-  name = chie8842
-  email = chie-hayashida@cookpad.com
+  name =
+  email =
 [color]
   ui = true
   diff = auto
