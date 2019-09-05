@@ -33,7 +33,7 @@ set laststatus=2
 set wildmode=list:longest
 " 不可視文字を可視化
 "set list
-set list listchars=tab:\▸\-,extends:↓,precedes:«,trail:-,eol:↩
+"set list listchars=tab:\▸\-,extends:↓,precedes:«,trail:-,eol:↩
 " 括弧の対応をハイライト
 set showmatch
 " ウインドウタイトルを設定する
