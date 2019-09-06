@@ -11,4 +11,5 @@ if [ -f /etc/bashrc ]; then
 # User specific aliases and functions
 # go(アプリの配置によって書き換え？)
 export GOPATH=$HOME/go
-PATH=$PATH:$GOPATH/bin
+PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+export $PATH
